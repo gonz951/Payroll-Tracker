@@ -2,19 +2,26 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 //need to organize these
-window.prompt("enter first name")
-window.prompt("enter last name")
-window.prompt("enter salary")
+//window.prompt("enter first name")
+//window.prompt("enter last name")
+//window.prompt("enter salary")
+
 
 // Collect employee data
-const collectEmployees = function() {
-  // TODO: Get user input to create and return an array of employee objects
+// TODO: Get user input to create and return an array of employee objects
 
-}
+const collectEmployees = function() {
+  const employeesArray = {
+    firstName: "first name",
+    lastName: "last name",
+    salary: NaN
+  }
+};
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+
 
 }
 
@@ -22,7 +29,7 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
   //code is subject to change, I just need references...
-  return Math.floor(Math.getRandomEmployee() * max);
+  
 }
 
 /*
