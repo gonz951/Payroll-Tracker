@@ -20,19 +20,17 @@ const collectEmployees = function() {
   }; 
   while (addEmployees) {
     let firstName = window.prompt("Enter FIRST name.");
+      if (!firstName) {
+       return;
+      }
     let lastName = window.prompt("Enter LAST name.");
+      if (!lastName) {
+        return;
+      }
     let salary = window.prompt("Enter Salary (no special symbols).");
-    
-    if (!firstName) {
-      return;
-    }
-    if (!lastName) {
-      return;
-    }
-    if (!salary) {
-      return;
-    }
-
+      if (!salary) {
+        return;
+      }
 
   }
 console.log(employees)
