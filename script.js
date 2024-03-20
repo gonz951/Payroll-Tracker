@@ -10,15 +10,12 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // TODO: Get user input to create and return an array of employee objects
 
 const collectEmployees = function() {
-
   let addEmployees = true;
-
   const employees = { 
     firstName: " ", 
     lastName: " ", 
     salary: 0
   }; 
-
   while (addEmployees) {
     let firstName = window.prompt("Enter FIRST name.");
       if (!firstName) {
@@ -32,17 +29,19 @@ const collectEmployees = function() {
       if (!salary) {
         return;
       }
+      employees.sort((a, b) => a.firstName - b.lastName);
       
     addEmployees = window.confirm("add another employee?");
+    return employeesArray;
 
   }
-console.log(addEmployees)
+console.log(firstName)
 }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
-
+  
 
 }
 
@@ -106,6 +105,7 @@ const trackEmployeeData = function() {
   getRandomEmployee(employees);
 
   employees.sort(function(a,b) {
+    // ?? Figure this out
     if (a.lastName < b.lastName) {
       return -1;
     } else {
