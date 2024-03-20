@@ -22,6 +22,16 @@ const collectEmployees = function() {
     let firstName = window.prompt("Enter FIRST name.");
     let lastName = window.prompt("Enter LAST name.");
     let salary = window.prompt("Enter Salary (no special symbols).");
+    
+    if (!firstName) {
+      return;
+    }
+    if (!lastName) {
+      return;
+    }
+    if (!salary) {
+      return;
+    }
 
 
   }
