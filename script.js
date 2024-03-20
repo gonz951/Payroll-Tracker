@@ -18,6 +18,7 @@ const collectEmployees = function() {
     lastName: " ", 
     salary: 0
   }; 
+
   while (addEmployees) {
     let firstName = window.prompt("Enter FIRST name.");
       if (!firstName) {
@@ -31,9 +32,11 @@ const collectEmployees = function() {
       if (!salary) {
         return;
       }
+      
+    addEmployees = window.confirm("add another employee?");
 
   }
-console.log(employees)
+console.log(addEmployees)
 }
 
 // Display the average salary
