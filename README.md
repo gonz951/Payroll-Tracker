@@ -6,7 +6,7 @@ This project was mostly a learning experience on figuring out how to read javasc
 
 Alongside this, it's also good reference on how to connect a table to JS and plenty of other things. 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
