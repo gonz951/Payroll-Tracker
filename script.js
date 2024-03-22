@@ -96,8 +96,8 @@ const getRandomEmployee = function(employeesArray) {
   //return Math.floor(Math.random(employeesArray[i].firstName) * employeesArray.length)
   let i = 0
 
-  const randomNumber = Math.floor(Math.random(employeesArray[i]))
-  const randomEmployee = (randomNumber.firstName * employeesArray.length)
+  const randomNumber = Math.floor(Math.random * employeesArray.length)
+  const randomEmployee = (randomNumber.firstName)
   console.log(randomNumber)
   console.log(randomEmployee)
   //let randomNumber = Math.floor(Math.random * employeesArray.length)
