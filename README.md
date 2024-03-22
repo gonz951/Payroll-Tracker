@@ -4,7 +4,7 @@
 
 This project was mostly a learning experience on figuring out how to read javascript. I learned a lot about local vs global scopes while working on this, and a lot more on how things flow in JS. I also learned how to ask for help when I'm stuck, or else I won't be able to move forward and will remain stubborn. 
 
-Alongside this, it's also good reference on how to connect a table to JS and plenty of other things. 
+Alongside this, it's also good reference on how to connect a table to JS and plenty similar to that. 
 
 ## Table of Contents
 
@@ -21,13 +21,14 @@ No installation required; just this link:
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The main function of the page lies in the 'Add Employees' button. Once you press it, some pop-up prompts will show up, allowing the user to add 'employee' information.
+![Add Employees button causes a window to pop up.](./Images/Screenshot.pay1.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Once the user stops putting in 'employee' information, a table will be made from the data provided. 
+![A table made from the info put into the Add Employees button prompts](./Images/Screenshot.pay2.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+With the data provided, a function also runs with their salaries, averaging it out for the user in the console. 
+![The console log of the page being presented, showing how the user data gets used for an average on employee salary](./Images/Screenshot.pay3.png)
 
 ## Credits
 
