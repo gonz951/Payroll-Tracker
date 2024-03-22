@@ -30,6 +30,8 @@ Once the user stops putting in 'employee' information, a table will be made from
 With the data provided, a function also runs with their salaries, averaging it out for the user in the console. 
 ![The console log of the page being presented, showing how the user data gets used for an average on employee salary](./Images/Screenshot.pay3.png)
 
+An additional feature will be added later!
+
 ## Credits
 
 Link for 'while' loop:
