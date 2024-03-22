@@ -5,46 +5,67 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // Collect employee data
 // TODO: Get user input to create and return an array of employee objects
 
-let employees = { 
-  firstName: "First", 
-  lastName: "Last", 
-  salary: 0
-}; 
+// let employees = { 
+//   firstName: "First", 
+//   lastName: "Last", 
+//   salary: 0
+// }; 
 
 const collectEmployees = function() {
-  let addEmployees = true;
+  const employees = []
   // employee table
   //let employees = { 
     //firstName: "First", 
     //lastName: "Last", 
     //salary: 0
   //}; 
-  // while function to add employee info 
+  let addEmployees = true;
   while (addEmployees) {
-    let firstName = window.prompt("Enter FIRST name.");
-    console.log(firstName);
-    // can close the window at any time 
-      if (!firstName) {
-       return;
-      }
-    let lastName = window.prompt("Enter LAST name.");
-    console.log(lastName);
-      if (!lastName) {
-        return;
-      }
-    let salary = window.prompt("Enter Salary (no special symbols).");
-      if (!salary) {
-        return;
-      }
-      console.log(salary);
-      //employees.sort((a, b) => a.firstName - b.lastName);
-      // ??
-      
-    addEmployees = window.confirm("add another employee?");
-    //return(employees);
-    // is this even correct
-
+    const firstName = prompt("Enter First name.")
+    const lastName = prompt("Enter last name.")
+    let salary = prompt("Enter Salary")
+  
+    if (isNaN(salary)) {
+      salary = 0;
+    }
+  
+    const employee = {
+      firstName: firstName,
+      lastName: lastName,
+      salary: parseFloat(salary)
+    }
+    employees.push(employee)
+    addEmployees = confirm("Do you want to add another employee?")
+    console.log(employees)
+    
   }
+  return(employees);
+  // while function to add employee info 
+  // while (addEmployees) {
+  //   let firstName = window.prompt("Enter FIRST name.");
+  //   console.log(firstName);
+  //   // can close the window at any time 
+  //     if (!firstName) {
+  //      return;
+  //     }
+  //   let lastName = window.prompt("Enter LAST name.");
+  //   console.log(lastName);
+  //     if (!lastName) {
+  //       return;
+  //     }
+  //   let salary = window.prompt("Enter Salary (no special symbols).");
+  //     if (!salary) {
+  //       return;
+  //     }
+  //     console.log(salary);
+  //     //employees.sort((a, b) => a.firstName - b.lastName);
+  //     // ??
+      
+  //   addEmployees = window.confirm("add another employee?");
+  //   //return(employees);
+  //   // is this even correct
+
+  // }
 console.log(employees)
 }
 
@@ -54,17 +75,20 @@ const displayAverageSalary = function(employeesArray) {
   let sum = 0;
 
   for (let i = 0; i < employeesArray.length; i++) {
-    sum += employees[i];
+    sum += employeesArray[i].salary;
   }
-  console.log(sum);
-  return sum;
+  // console.log(sum);
+  const avg = (sum / employeesArray.length)
+  console.log(`The average of all the employees is ${avg}!`);
+  // return avg;
 }
+
 //console.log(`Logging test ${sum}`);
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
-  
+
   
   
 }
