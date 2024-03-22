@@ -82,14 +82,26 @@ const displayAverageSalary = function(employeesArray) {
   // return avg;
 }
 
-//console.log(`Logging test ${sum}`);
-
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  console.log(employeesArray);
+  console.log(Math.random());
+  console.log(employeesArray[0])
+  console.log(employeesArray.length)
 
-  return Math.random
-  
+  for (let i = 0; i < employeesArray.length; i++) {
+    let pick = employeesArray[i].firstName;
+    return Math.floor(Math.random(pick) * employeesArray.length);
+  }
+
+  //return Math.floor(Math.random(pick) * employeesArray.length);
+  // let randomNumber = (employeesArray[i]);
+  // employeesArray[randomNumber]
+  //randomNumber= Rounded down Math.Random times the lenght of the array. 
+  //(Which means the index will exsits in the array)
+  //return Math.floor(Math.random(employeesArray[i].firstName) * employeesArray.length)
+  //Math.floor(Math.random(employeesArray.length))
   
 }
 
