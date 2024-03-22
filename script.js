@@ -89,16 +89,6 @@ const getRandomEmployee = function(employeesArray) {
   console.log(Math.random());
   console.log(employeesArray[0])
   console.log(employeesArray.length)
-
-  
-
-  // let pick = employeesArray[i].firstName;
-  // for (let i = 0; i < employeesArray.length; i++) {
-  //   let pick = employeesArray[i].firstName;
-  //   const 
-  // }
-  // console.log()
-  // return Math.floor(Math.random(pick) * employeesArray.length);
   // let randomNumber = (employeesArray[i]);
   // employeesArray[randomNumber]
   //randomNumber= Rounded down Math.Random times the lenght of the array. 
