@@ -94,7 +94,8 @@ const getRandomEmployee = function(employeesArray) {
   //randomNumber= Rounded down Math.Random times the lenght of the array. 
   //(Which means the index will exsits in the array)
   //return Math.floor(Math.random(employeesArray[i].firstName) * employeesArray.length)
-  //Math.floor(Math.random(employeesArray.length))
+  
+  
   
 }
 

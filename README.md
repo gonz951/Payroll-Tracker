@@ -40,6 +40,37 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+Link for 'while' loop:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+
+Link for 'isNaN':
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+
+Link for 'return':
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
+
+More stuff for 'while' loops:
+https://www.w3schools.com/js/js_loop_while.asp
+
+Helping understand 'sort':
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+Parameters:
+https://www.w3schools.com/js/js_function_parameters.asp
+
+Help with getting an average in an array:
+https://www.explainthis.io/en/swe/find-average-in-an-array
+
+Help with the 'push' method for arrays:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+
+'Math.random' help:
+https://www.programiz.com/java-programming/library/math/random
+
+More 'Math.random' help:
+https://www.w3schools.com/js/js_random.asp
+
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
